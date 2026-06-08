@@ -103,48 +103,48 @@ console.log("Did the student pass?", examScore > passMark);
 let score = 73;
 
 if (score >= 70) {
-  console.log("Score: 73 | Grade: A — Distinction");
+  console.log(`Score: ${score} | Grade: A — Distinction`);
 } else if (score >= 60) {
-  console.log("Score: 73 | Grade: B — Merit");
+  console.log(`Score: ${score} | Grade: B — Merit`);
 } else if (score >= 50) {
-  console.log("Score: 73 | Grade: C — Pass");
+  console.log(`Score: ${score} | Grade: C — Pass`);
 } else if (score >= 40) {
-  console.log("Score: 73 | Grade: D — Near Pass");
+  console.log(`Score: ${score} | Grade: D — Near Pass`);
 } else {
-  console.log("Score: 73 | Grade: F — Fail");
+  console.log(`Score: ${score} | Grade: F — Fail`);
 }
 
 
-// Test 2
-// score = 58;
+Test 2
+score = 58;
 
-// if (score >= 70) {
-//   console.log("Score: 58 | Grade: A — Distinction");
-// } else if (score >= 60) {
-//   console.log("Score: 58 | Grade: B — Merit");
-// } else if (score >= 50) {
-//   console.log("Score: 58 | Grade: C — Pass");
-// } else if (score >= 40) {
-//   console.log("Score: 58 | Grade: D — Near Pass");
-// } else {
-//   console.log("Score: 58 | Grade: F — Fail");
-// }
+if (score >= 70) {
+  console.log(`Score: ${score} | Grade: A — Distinction`);
+} else if (score >= 60) {
+  console.log(`Score: ${score} | Grade: B — Merit`);
+} else if (score >= 50) {
+  console.log(`Score: ${score} | Grade: C — Pass`);
+} else if (score >= 40) {
+  console.log(`Score: ${score} | Grade: D — Near Pass`);
+} else {
+  console.log(`Score: ${score} | Grade: F — Fail`);
+}
 
 
-// Test 3
-// score = 35;
+Test 3
+score = 35;
 
-// if (score >= 70) {
-//   console.log("Score: 35 | Grade: A — Distinction");
-// } else if (score >= 60) {
-//   console.log("Score: 35 | Grade: B — Merit");
-// } else if (score >= 50) {
-//   console.log("Score: 35 | Grade: C — Pass");
-// } else if (score >= 40) {
-//   console.log("Score: 35 | Grade: D — Near Pass");
-// } else {
-//   console.log("Score: 35 | Grade: F — Fail");
-// }
+if (score >= 70) {
+  console.log(`Score: ${score} | Grade: A — Distinction`);
+} else if (score >= 60) {
+  console.log(`Score: ${score} | Grade: B — Merit`);
+} else if (score >= 50) {
+  console.log(`Score: ${score} | Grade: C — Pass`);
+} else if (score >= 40) {
+  console.log(`Score: ${score} | Grade: D — Near Pass`);
+} else {
+  console.log(`Score: ${score} | Grade: F — Fail`);
+}
 
 
 
