@@ -115,8 +115,8 @@ if (score >= 70) {
 }
 
 
-Test 2
-score = 58;
+// // Test 2
+let score = 58;
 
 if (score >= 70) {
   console.log(`Score: ${score} | Grade: A — Distinction`);
@@ -131,8 +131,8 @@ if (score >= 70) {
 }
 
 
-Test 3
-score = 35;
+// Test 3
+let score = 35;
 
 if (score >= 70) {
   console.log(`Score: ${score} | Grade: A — Distinction`);
@@ -153,9 +153,9 @@ if (score >= 70) {
 // =========================
 
 // Test 1
-let monthNumber = 6;
+function getMonthName(month) {
 
-switch (monthNumber) {
+switch (month) {
   case 1:
     console.log("January");
     break;
@@ -206,7 +206,12 @@ switch (monthNumber) {
 
   default:
     console.log("Invalid month number");
+  }
 }
+
+getMonthName(5);
+getMonthName(11);
+getMonthName(15);
 
 
 // Test 2
